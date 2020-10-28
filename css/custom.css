@@ -158,7 +158,8 @@ nav.sticky ul li a {
 .folded-corner {
     padding: 25px 25px;
     position: relative;
-    font-size: 90%;
+    font-size: 18px;
+    max-height: 415px;
     text-decoration: none;
     color: #999;
     background: transparent;
