@@ -20,7 +20,7 @@ nav {
     align-items: center;
     transition: 0.6s;
     padding: 25px 50px;
-    z-index: 100000;
+    z-index: 100;
 }
 
 nav.sticky {
@@ -115,7 +115,7 @@ nav.sticky ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 80px 0;
+    padding: 20px 0;
     width: 100%;
     position: relative;
 }
@@ -146,7 +146,6 @@ nav.sticky ul li a {
 
 .text {
     color: #7952b3;
-    text-align: center;
 }
 
 .folded-corner:hover .text {
@@ -163,7 +162,7 @@ nav.sticky ul li a {
     padding: 25px 25px;
     position: relative;
     font-size: 18px;
-    max-height: 415px;
+    min-height: 525px;
     text-decoration: none;
     color: #999;
     background: transparent;
@@ -210,8 +209,6 @@ nav.sticky ul li a {
     line-height: 1;
     font-size-adjust: none;
     font-stretch: normal;
-    -moz-font-feature-settings: normal;
-    -moz-font-language-override: normal;
     text-rendering: auto;
     transition: all .65s linear 0s;
     text-align: center;
@@ -429,6 +426,9 @@ footer .icones {
     }
     .footer-links {
         text-align: center;
+    }
+    .folded-corner {
+        min-height: 350px;
     }
 }
 
