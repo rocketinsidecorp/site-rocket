@@ -111,12 +111,12 @@ nav.sticky ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 50px 0;
+    padding: 80px 0;
+    width: 100%;
     position: relative;
 }
 
 #contact h1 {
-    margin-top: 80px;
     padding: 10px 0;
 }
 
