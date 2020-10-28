@@ -44,6 +44,7 @@ nav ul {
 nav ul li {
     position: relative;
     list-style: none;
+    padding: .5rem 1rem;
 }
 
 nav ul li a {
@@ -86,6 +87,16 @@ nav .icon-burger .line {
     height: 100vh;
     width: 100%;
     background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-portifolio {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background: url(../img/portfolio-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -311,6 +322,9 @@ nav.sticky ul li a {
     transition: all .5s;
 }
 
+.portifolio-jobs{
+    position: relative;
+}
 
 /* FOOTER */
 
