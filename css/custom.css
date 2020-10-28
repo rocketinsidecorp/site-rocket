@@ -104,6 +104,10 @@ nav.sticky ul li a {
     color: #fff;
 }
 
+.dis-mobile-1 {
+    display: none;
+}
+
 #contact {
     transition: background 200ms;
     outline: none;
@@ -358,6 +362,12 @@ footer .icones {
 @media (max-width: 768px) {
     .footer-icons-area {
         margin: 20px 0;
+    }
+    .dis-mobile-1 {
+        display: inline-block;
+    }
+    .dis-mobile-2 {
+        display: none;
     }
 }
 
